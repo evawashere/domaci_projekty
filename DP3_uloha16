@@ -1,0 +1,20 @@
+#ukol 16
+prvni = int(input('První číslo: '))
+druhe = int(input('Druhé číslo: '))
+operator = input('Operace: ')
+
+
+def program (a, b, operator):
+    if operator == '+':
+        return a + b
+    elif operator == '-':
+        return a - b
+    elif operator == '*':
+        return a*b
+    elif operator == '/':
+        return a/b
+    else:
+        print('Pouzij zakladni matematicke operatory')
+
+
+print(prvni, operator, druhe, '=', program(prvni,druhe,operator))
