@@ -1,0 +1,12 @@
+#ukol 10
+from turtle import forward, left, exitonclick
+m=5
+
+for a in range(19):
+    forward(a*m)
+    left(90)
+    forward(2*m*a)
+
+exitonclick()
+
+#Posledni strana se mi nedotahne do konce..procpak?
