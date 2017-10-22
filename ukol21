@@ -1,0 +1,13 @@
+#byl to porod
+
+for cislo in range(101):
+    celecislo=int(cislo)
+    if celecislo%3==0 and celecislo%5==0:
+        print("bumbác")
+    elif celecislo%3==0:
+        print("bum")
+    elif celecislo%5==0:
+        print("bác")
+
+    else:
+        print(cislo)
