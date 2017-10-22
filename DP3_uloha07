@@ -1,0 +1,9 @@
+#ukol 7
+from turtle import forward, left, exitonclick
+
+strana=input("Nakreslíme mnohoúhelník. Kolik chceš aby měl stran? ")
+for a in range(int(strana)):
+    forward(50)
+    left(360/int(strana))
+
+exitonclick()
